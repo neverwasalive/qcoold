@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCoolD</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <span class="dot">.</span>Q<span class="text-small">cool</span>D<span class="dot">.</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/about.html">About us</a></li>
+                    <li><a href="/contacts.html">Contact us</a></li>
+                    <li class="btn"><a href="/myprofile.html">My profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="hero container">
+            <div class="hero--info">
+                <h2>JOB VACANCIES</h2>
+                <h1>Trustworthy people
+                    working for 
+                    trustworthy clients.</h1>
+                <p>A job posting site that operates solely on a trusted relationship between employee and employer.
+                </p>
+                <button class="btn">Fast, honest, reliable.</button>
+            </div>
+            <img src="img/main_hero.png" alt="">
+        </div>
+
+        <div class="header-container">
+            <div class="title">Available workers</div>
+            <button class="see-all"> <a href="/workers.html">See all</a></button>
+          </div>
+
+
+        <div class="container avaiable">
+            <div class="workers">
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="img/worker1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container big-text">
+            <p>Explore a world of opportunities where trust meets professionalism. Whether you're an employer seeking reliable talent or a job seeker looking for your next big break, we’re here to connect you with the right people. Join our community today and experience a new standard in job matching.</p>
+        </div>
+
+        <div class="container banner">
+            <h3>Trust Builds Success</h3>
+            <p>Whether you're searching for skilled professionals or your next career opportunity, we bring people together. Our platform ensures seamless connections, mutual growth, and a commitment to excellence in every interaction. Start building your future with us today.</p>
+            <img src="img/banner.png" alt="">
+        </div>
+    </div>
+    
+    <div class="features">
+        <div class="container">
+            <h3>Innovative Solutions for Your Digital Needs</h3>
+            <p>Explore cutting-edge technologies and professional  
+                services tailored to your vision.</p>
+                <div class="info">
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>Mobile App Development</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>Web Solutions</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>3D Design</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>AI/VR Experiences</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>Frontend developer</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="" alt="">
+                        <p>Backend developer</p>
+                        <img src="img/Arrow 1.png" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container email">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="block">
+            <div>
+                <h4>Stay with us</h4>
+                <p>Subscribe to receive the latest news and updates about QcoolD! 
+                    (We promise not to spam you!)
+                </p>
+            </div>
+            <div>
+                <input type="email" id="emailField" placeholder="Type email here...">
+                <button onclick="checkEmail()">Enter</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h6 class="footer1">2024 "QcoolD" inc. All rights reserved.</h6>
+            <h6 class="footer2">You can find us here:</h6>
+            <div class="footer-social">
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+          </div>
+    </footer>
+
+    <script>
+        function checkEmail() {
+            let email = document.querySelector('#emailField').value;
+            if(!email.includes('@')) alert('No "@" symbol');
+            else if(!email.includes('.')) alert('No "." symbol');
+            else alert('Excelent!');
+        }
+    </script>
+
+</body>
+</html>
